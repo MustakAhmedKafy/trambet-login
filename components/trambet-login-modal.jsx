@@ -29,7 +29,10 @@ export default function TrambetLoginModal({ show, onHide, onSubmit }) {
                 </div>
               </div>
               {/* Left side - Login Form */}
-              <div className="col-md-6 py-0 trambet-login-form-bg" style={{ padding: "20px" }}>
+              <div
+                className="col-md-6 py-0 trambet-login-form-bg"
+                style={{ padding: "20px" }}
+              >
                 <div className="position-relative">
                   <button
                     type="button"
@@ -49,16 +52,17 @@ export default function TrambetLoginModal({ show, onHide, onSubmit }) {
                     {/* Custom Cross (SVG) */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      viewBox="0 0 16 16"
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
                     >
                       <path
-                        d="M2.146 2.146a.5.5 0 0 1 .708 0L8 7.293l5.146-5.147a.5.5 0 0 
-    1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 
-    1-.708.708L7.293 8 2.146 2.854a.5.5 0 0 
-    1 0-.708z"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m15.5 15.5l-10-10zm0-10l-10 10"
+                        stroke-width="1"
                       />
                     </svg>
                   </button>
@@ -72,7 +76,9 @@ export default function TrambetLoginModal({ show, onHide, onSubmit }) {
       </div>
 
       {/* Modal backdrop */}
-      {show && <div className="modal-backdrop fade show" onClick={onHide}></div>}
+      {show && (
+        <div className="modal-backdrop fade show" onClick={onHide}></div>
+      )}
     </>
-  )
+  );
 }

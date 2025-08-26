@@ -79,11 +79,11 @@ export default function TrambetLoginForm({ onSubmit, showLogo = true }) {
           </a>
         </div>
 
-        <button type="submit" className="btn trambet-btn-primary w-100 mb-2">
+        <button type="submit" className="btn trambet-btn-primary w-100 mb-3">
           Sign in
         </button>
 
-        <div className="d-flex gap-1 mb-2">
+        <div className="d-flex gap-3 mb-4">
           <button
             type="button"
             className="btn trambet-social-btn d-flex justify-center align-items-center w-100"
@@ -110,7 +110,7 @@ export default function TrambetLoginForm({ onSubmit, showLogo = true }) {
                 d="M8.98 4.72c1.16 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.35L4.5 7.42a4.77 4.77 0 0 1 4.48-2.7z"
               />
             </svg>
-            <span className="small">Google</span>
+            <span className="small">Signin Google</span>
           </button>
           <button
             type="button"
@@ -141,7 +141,7 @@ export default function TrambetLoginForm({ onSubmit, showLogo = true }) {
          3.957-2.707-.847c-.589-.183-.603-.589.124-.872l10.58-4.083c.49-.177.918.11.76.872Z"
               />
             </svg>
-            <span className="small">Telegram</span>
+            <span className="small">Signin Telegram</span>
           </button>
         </div>
 
