@@ -36,8 +36,8 @@ export default function LoginPage() {
         {/* Left side - Login Form */}
         <div className="col-lg-6 trambet-login-bg d-none d-lg-block position-relative">
           {/* login img */}
-          <div className="p-5 w-full h-full">
-            <Image className="w-full h-full" src={LoginImg} alt="login-bg" />
+          <div className="p-5 w-100 h-100">
+            <Image className="w-100 h-100" src={LoginImg} alt="login-bg" />
           </div>
         </div>
 

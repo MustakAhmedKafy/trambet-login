@@ -14,7 +14,7 @@ export default function HomePage() {
       <nav className="navbar navbar-expand-lg navbar-light bg-dark shadow-sm py-4">
         <div className="container">
           <div className="trambet-logo">
-            <Image className="trambet-logo" src={Logo || "/placeholder.svg"} alt="trambet-logo" />
+            <Image className="trambet-logo w-50 h-100" src={Logo || "/placeholder.svg"} alt="trambet-logo" />
           </div>
 
           <div className="d-flex gap-2">

@@ -23,7 +23,7 @@ export default function TrambetLoginForm({ onSubmit, showLogo = true }) {
       {showLogo && (
         <div className="trambet-logo text-center m-auto" style={{ width: "250px" }}>
           {/* logo */}
-          <Image src={Logo || "/placeholder.svg"} className="w-full" alt="logo" />
+          <Image src={Logo || "/placeholder.svg"} className="w-100 h-100" alt="logo" />
         </div>
       )}
 
@@ -39,7 +39,7 @@ export default function TrambetLoginForm({ onSubmit, showLogo = true }) {
           </label>
           <input
             type="email"
-            className="trambet-form-control w-full"
+            className="trambet-form-control w-100"
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -53,7 +53,7 @@ export default function TrambetLoginForm({ onSubmit, showLogo = true }) {
           </label>
           <input
             type="password"
-            className=" trambet-form-control w-full"
+            className=" trambet-form-control w-100"
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}

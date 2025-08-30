@@ -18,9 +18,9 @@ export default function TrambetLoginModal({ show, onHide, onSubmit }) {
               {/* Right side - Purple Background */}
               <div className="col-md-6 trambet-login-bg d-none d-md-block position-relative">
                 {/* login img */}
-                <div className="p-4 w-full h-full">
+                <div className="p-4 w-100 h-100">
                   <Image
-                    className="w-full h-full object-contain"
+                    className="w-100 h-100 object-contain"
                     src={LoginImg || "/placeholder.svg"}
                     alt="login-bg"
                     width={400}
@@ -30,8 +30,8 @@ export default function TrambetLoginModal({ show, onHide, onSubmit }) {
               </div>
               {/* Left side - Login Form */}
               <div
-                className="col-md-6 py-0 trambet-login-form-bg"
-                style={{ padding: "20px" }}
+                className="col-md-6 py-0 trambet-login-form-bg px-0"
+               
               >
                 <div className="position-relative">
                   <button
